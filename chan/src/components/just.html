@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Voter Verification System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 30px;
+    }
+
+    .flow-box {
+      background-color: #1e1e1e;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 20px #4facfe44;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .step {
+      margin-bottom: 25px;
+      padding: 15px;
+      background: #2e2e2e;
+      border-left: 5px solid #4facfe;
+      border-radius: 10px;
+      transition: transform 0.2s ease;
+    }
+
+    .step:hover {
+      transform: translateX(5px);
+      background: #383838;
+    }
+
+    .step h2 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #00f2fe;
+    }
+
+    .step p {
+      margin: 5px 0 0;
+      color: #ccc;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Smart Voter Verification</h1>
+  <div class="flow-box">
+    <div class="step">
+      <h2>Step 1: Face Scan</h2>
+      <p>AI-powered facial recognition verifies the voter's identity instantly.</p>
+    </div>
+
+    <div class="step">
+      <h2>Step 2: Fingerprint Scan</h2>
+      <p>Biometric match with the government database to ensure authenticity.</p>
+    </div>
+
+    <div class="step">
+      <h2>Step 3: QR Code Scan</h2>
+      <p>Unique QR from voter's official app or voter ID is scanned to cross-verify.</p>
+    </div>
+
+    <div class="step">
+      <h2>Final Step: Verified & Ready to Vote</h2>
+      <p>Access to cast vote is granted once all verifications are successful.</p>
+    </div>
+  </div>
+
+  <footer>© 2025 ElectionTech Innovations | Built for Secure Voting</footer>
+
+</body>
+</html>
